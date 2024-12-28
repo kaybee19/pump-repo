@@ -10,7 +10,7 @@ export default function App() {
     if (!copied) {
       setCopied(true);
       navigator.clipboard.writeText(
-        "Crypto-Address"
+        "A8SPRUzguJZ6zZbsKq8YSxSTTjasZvbmVTSj6Kn8pump"
       );
     }
   };
@@ -36,7 +36,7 @@ export default function App() {
           {copied ? (
             <p>Copied</p>
           ) : (
-            <p className="text-xs md:text-base">Crypto-Address</p>
+            <p className="text-xs md:text-base">A8SPRUzguJZ6zZbsKq8YSxSTTjasZvbmVTSj6Kn8pump</p>
           )}
         </div>
         <img src={logo} className="w-48" />
